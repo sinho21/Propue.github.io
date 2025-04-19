@@ -10,7 +10,7 @@ document.getElementById("formLogin").addEventListener("submit", function (e) {
     if (nombre === nombreCorrecto && contrasena === contrasenaCorrecta) {
       window.location.href = "views/firstView.html";
     } else {
-      alert("Nombre o contraseña incorrectos. Intenta de nuevo.");
+      alert("Nombre o contraseña incorrectos. Intenta de nuevo por favor.");
     }
   });
   

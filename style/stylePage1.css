@@ -1,0 +1,77 @@
+body {
+    background-color: #f9d6d5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.tYf {
+    margin-left: 10%;
+}
+
+.TituloYparrafo,
+.formulario {
+    display: inline-block;
+    margin-top: 11%;
+}
+
+.TituloYparrafo h1 {
+    font-size: 50px;
+}
+
+.TituloYparrafo p {
+    font-size: 25px;
+}
+
+.TituloYparrafo h1, p {
+    margin: 2%;
+}
+
+.formulario input[type="text"],
+.formulario input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.formulario {
+    margin-left: 13%;
+    width: 30%;
+    height: 350px;
+    padding: 30px;
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.form {
+    margin-top: 5%;
+}
+
+#BtnIngresar,
+#BtnCrearC {
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#BtnIngresar:hover {
+    background-color: red;
+}
+
+#BtnCrearC:hover {
+    background-color: red;
+}
+
+h2 {
+    text-align: center;
+}
